@@ -124,6 +124,10 @@
                     <name>MICROCHIP_MZ_STARTER_KIT</name>
                     <type>2</type>
                 </confElem>
+                <confElem>
+                    <name>CRESSON_MD920</name>
+                    <type>2</type>
+                </confElem>
             </confList>
             <formatting>
                 <project-formatting-style>false</project-formatting-style>
