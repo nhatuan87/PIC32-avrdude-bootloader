@@ -41,7 +41,7 @@
     #pragma config IOL1WAY  = OFF                           		// Allow multiple reconfigurations
 #endif
 
-	// Boot button on RB9
+	// Boot button on RB7
     #define CAPABILITIES    (blCapUARTInterface | blCapProgramButton | blCapVirtualProgramButton | CAPCOMMON)
 
     // BTN / LED sense
@@ -50,11 +50,11 @@
 
     // Virtual program button
     #define VPBntLat    B
-    #define VPBntBit    5
+    #define VPBntBit    7
 
     // Program button
     #define PBntPort    B
-    #define PBntBit     5
+    #define PBntBit     7
 
     // Other capabilities
     #define BOOTLOADER_UART             1                   // avrdude program UART
